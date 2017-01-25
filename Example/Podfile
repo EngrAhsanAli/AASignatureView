@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'AASignatureView_Example' do
-  pod 'AASignatureView', :path => '../'
-
-  target 'AASignatureView_Tests' do
-    inherit! :search_paths
-
+    pod 'AASignatureView', :path => '../'
     
-  end
 end

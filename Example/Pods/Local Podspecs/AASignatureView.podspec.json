@@ -1,0 +1,22 @@
+{
+  "name": "AASignatureView",
+  "version": "0.1.0",
+  "summary": "A short description of AASignatureView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/AASignatureView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Engr. Ahsan Ali": "hafiz.m.ahsan.ali@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/AASignatureView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AASignatureView/Classes/**/*"
+}

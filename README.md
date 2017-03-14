@@ -104,7 +104,7 @@ github "EngrAhsanAli/AASignatureView" "master"
 ```
 
 Then import the library in all files where you use it:
-```
+```swift
 import AASignatureView
 ```
 
@@ -154,7 +154,7 @@ You can customise the rating bar appearance in the *Attributes Inspector.*
 
 You can capture the signature view as UIImage .
 
-```
+```swift
 if let image = signatureView.signature {
 // captured image of signature view
 }
@@ -168,7 +168,7 @@ if let image = signatureView.signature {
 
 You can clear the signature view by calling `clear()` function.
 
-```
+```swift
 signatureView.clear()
 ```
 

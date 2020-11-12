@@ -80,7 +80,7 @@ import UIKit
     /// default init
     ///
     /// - Parameter frame: view frame
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
     }
@@ -159,8 +159,3 @@ import UIKit
     }
     
 }
-
-
-
-
-

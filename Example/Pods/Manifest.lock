@@ -1,16 +1,16 @@
 PODS:
-  - AASignatureView (0.1.0)
+  - AASignatureView (1.0)
 
 DEPENDENCIES:
   - AASignatureView (from `../`)
 
 EXTERNAL SOURCES:
   AASignatureView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  AASignatureView: b536aa2abd3d5591da4b87a91384f7061aa190a4
+  AASignatureView: 4b432a386df0c6870b79be78f5aaab51cf368497
 
-PODFILE CHECKSUM: cb9aac9dce91510afd7f926274cc14d564be0ddc
+PODFILE CHECKSUM: 76da1ae706a64c046b859e783031826e74cb2e04
 
-COCOAPODS: 1.2.0.beta.3
+COCOAPODS: 1.10.0

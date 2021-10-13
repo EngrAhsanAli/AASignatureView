@@ -64,7 +64,6 @@ import UIKit
         label.sizeThatFits(intrinsicContentSize)
         self.addSubview(label)
         self.backgroundColor = UIColor(rgb: 0x2891B1)
-        
     }
     
     /// Default draw function, will call on touch

@@ -45,6 +45,7 @@ import UIKit
     }
     
     /// Check for empty view
+    @objc
     open var isEmpty: Bool {
         get {
             guard !self.path.isEmpty else {
@@ -144,13 +145,13 @@ import UIKit
     }
     
     /// Clear the view
-    open func clear() {
+    @objc open func clear() {
         path.removeAllPoints()
         setNeedsDisplay()
     }
     
     /// Get captured view
-    open var signature: UIImage? {
+    @objc open var signature: UIImage? {
         guard !isEmpty else {
             return nil
         }
